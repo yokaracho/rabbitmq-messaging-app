@@ -89,12 +89,6 @@ func main() {
 			panic(err)
 		}
 
-		//messageHistory = append(messageHistory, Message{
-		//	Content:  message,
-		//	Author:   "Volodya",
-		//	SentTime: time.Now(),
-		//})
-
 		messageHistory = append(messageHistory, Message{
 			Content:  message,
 			Author:   "Volodya",
